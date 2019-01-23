@@ -39,16 +39,3 @@ print(round(np.mean(errors), 2))
 mape = 100 * (errors/test_labels)
 accuracy = 100 - np.mean(mape)
 print(round(accuracy, 2))
-
-
-
-
-"""
-TODO
--one-hot encode month
--get rid of day of the week? one-hot encode too cause weather guy did
--keep 0 data and if u gotta divide by infinity then can't you math away the 0s?
--confess any changes to the 3 parties you've given that 95% number to
-
-btw bud you owe money to waterloo and the good people shall RECEIVE
-"""
